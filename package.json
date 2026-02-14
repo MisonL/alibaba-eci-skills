@@ -1,6 +1,6 @@
 {
   "name": "eci-skills",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "阿里云 ECI Skills 一键安装器（支持 docs/k8s/openapi/ops 全套技能）",
   "repository": {
     "type": "git",
