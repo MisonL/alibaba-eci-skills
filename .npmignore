@@ -1,0 +1,4 @@
+skills/**/__pycache__/
+skills/**/.DS_Store
+skills/aliyun-eci-docs/references/eci_docs_index.jsonl.bak
+skills/aliyun-eci-docs/references/eci_docs_index.jsonl.before_repair

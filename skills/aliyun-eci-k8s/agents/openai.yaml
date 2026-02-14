@@ -1,0 +1,4 @@
+interface:
+  display_name: "阿里云 ECI K8s 对接"
+  short_description: "ACK/自建K8s 对接 ECI：eci-profile/Annotation/VNode"
+  default_prompt: "使用 $aliyun-eci-k8s 生成可直接应用的 Pod/eci-profile YAML，并解释关键注解与限制。"

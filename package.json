@@ -1,0 +1,44 @@
+{
+  "name": "eci-skills",
+  "version": "1.0.1",
+  "description": "阿里云 ECI Skills 一键安装器（支持 docs/k8s/openapi/ops 全套技能）",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisonL/alibaba-eci-skills.git"
+  },
+  "homepage": "https://github.com/MisonL/alibaba-eci-skills#readme",
+  "bugs": {
+    "url": "https://github.com/MisonL/alibaba-eci-skills/issues"
+  },
+  "keywords": [
+    "aliyun",
+    "eci",
+    "codex",
+    "skills",
+    "kubernetes",
+    "openapi",
+    "ops"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "eci-skills": "bin/install.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/install.mjs && bash -n install.sh && npm run test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "scripts",
+    "install.sh"
+  ]
+}

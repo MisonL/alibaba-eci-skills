@@ -1,0 +1,14 @@
+# ECI 文档补充 URL（用于补齐“官网首页学习路径/旧入口”中未出现在左侧目录树的页面）
+# 维护原则：
+# - 只收录“确实不在 references/eci_menu_urls.txt 中”的 URL
+# - 优先收录 help.aliyun.com 域名下的页面（包含 /zh/eci 与 /document_detail 旧链接）
+# - 该文件应保持“小而精”；综合列表用 eci_all_urls.txt（由 menu + extra 合并生成）
+
+https://help.aliyun.com/zh/eci/use-an-sdk-to-create-an-elastic-container-instance
+
+# 官网首页主入口仍引用的旧链接（document_detail）
+https://help.aliyun.com/document_detail/90728.html
+https://help.aliyun.com/document_detail/90668.html
+https://help.aliyun.com/document_detail/479590.html
+https://help.aliyun.com/document_detail/194524.html
+https://help.aliyun.com/document_detail/89142.html

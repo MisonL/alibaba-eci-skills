@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+.backup/
+*.tgz
+npm-debug.log*
+.npmrc

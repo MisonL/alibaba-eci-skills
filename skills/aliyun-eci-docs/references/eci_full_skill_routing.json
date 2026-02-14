@@ -1,0 +1,3337 @@
+[
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-changeset",
+    "title": "版本说明",
+    "section": "developer-reference",
+    "last_modified_ms": 1743140628000,
+    "last_modified_iso": "2025-03-28T13:43:48+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-commitcontainer",
+    "title": "CommitContainer - 创建CommitContainer任务",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669951000,
+    "last_modified_iso": "2025-10-17T10:59:11+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-copydatacache",
+    "title": "CopyDataCache - 拷贝数据缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760671204000,
+    "last_modified_iso": "2025-10-17T11:20:04+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-createcontainergroup",
+    "title": "CreateContainerGroup - 创建一个容器组",
+    "section": "developer-reference",
+    "last_modified_ms": 1767082034000,
+    "last_modified_iso": "2025-12-30T16:07:14+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-createdatacache",
+    "title": "CreateDataCache - 创建数据缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669960000,
+    "last_modified_iso": "2025-10-17T10:59:20+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-createimagecache",
+    "title": "CreateImageCache - 创建一个镜像缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760672136000,
+    "last_modified_iso": "2025-10-17T11:35:36+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-createinstanceopstask",
+    "title": "CreateInstanceOpsTask - 创建运维任务",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669908000,
+    "last_modified_iso": "2025-10-17T10:58:28+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-createvirtualnode",
+    "title": "CreateVirtualNode - 创建一个虚拟节点",
+    "section": "developer-reference",
+    "last_modified_ms": 1761892763000,
+    "last_modified_iso": "2025-10-31T14:39:23+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-deletecontainergroup",
+    "title": "DeleteContainerGroup - 删除一个容器组",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669836000,
+    "last_modified_iso": "2025-10-17T10:57:16+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-deletedatacache",
+    "title": "DeleteDataCache - 删除数据缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670003000,
+    "last_modified_iso": "2025-10-17T11:00:03+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-deleteimagecache",
+    "title": "DeleteImageCache - 删除一个镜像缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669851000,
+    "last_modified_iso": "2025-10-17T10:57:31+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-deletevirtualnode",
+    "title": "DeleteVirtualNode - 删除一个虚拟节点",
+    "section": "developer-reference",
+    "last_modified_ms": 1761893178000,
+    "last_modified_iso": "2025-10-31T14:46:18+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describeavailableresource",
+    "title": "DescribeAvailableResource - 查询可用ECS实例规格",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669887000,
+    "last_modified_iso": "2025-10-17T10:58:07+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describecommitcontainertask",
+    "title": "DescribeCommitContainerTask - 查询CommitContainer任务详情",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670845000,
+    "last_modified_iso": "2025-10-17T11:14:05+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describecontainergroupevents",
+    "title": "DescribeContainerGroupEvents - 查询容器组事件列表",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669827000,
+    "last_modified_iso": "2025-10-17T10:57:07+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describecontainergroupmetric",
+    "title": "DescribeContainerGroupMetric - 查询一个ECI实例的监控数据",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670030000,
+    "last_modified_iso": "2025-10-17T11:00:30+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describecontainergroupprice",
+    "title": "DescribeContainerGroupPrice - 查询实例价格",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670083000,
+    "last_modified_iso": "2025-10-17T11:01:23+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describecontainergroups",
+    "title": "DescribeContainerGroups - 批量查询容器组信息",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670546000,
+    "last_modified_iso": "2025-10-17T11:09:06+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describecontainergroupstatus",
+    "title": "DescribeContainerGroupStatus - 批量查询容器组状态",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670264000,
+    "last_modified_iso": "2025-10-17T11:04:24+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describecontainerlog",
+    "title": "DescribeContainerLog - 获取容器日志信息",
+    "section": "developer-reference",
+    "last_modified_ms": 1753693932000,
+    "last_modified_iso": "2025-07-28T17:12:12+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describedatacaches",
+    "title": "DescribeDataCaches - 查询数据缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670311000,
+    "last_modified_iso": "2025-10-17T11:05:11+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describeimagecaches",
+    "title": "DescribeImageCaches - 批量查询镜像缓存信息",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670150000,
+    "last_modified_iso": "2025-10-17T11:02:30+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describeinstanceopsrecords",
+    "title": "DescribeInstanceOpsRecords - 查询运维任务信息",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670871000,
+    "last_modified_iso": "2025-10-17T11:14:31+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describemulticontainergroupmetric",
+    "title": "DescribeMultiContainerGroupMetric - 查询多个ECI实例的监控数据",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669937000,
+    "last_modified_iso": "2025-10-17T10:58:57+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describeregions",
+    "title": "DescribeRegions - 查询可以使用的阿里云地域和可用区",
+    "section": "developer-reference",
+    "last_modified_ms": 1760671624000,
+    "last_modified_iso": "2025-10-17T11:27:04+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-describevirtualnodes",
+    "title": "DescribeVirtualNodes - 批量查询虚拟节点信息",
+    "section": "developer-reference",
+    "last_modified_ms": 1761893424000,
+    "last_modified_iso": "2025-10-31T14:50:24+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-endpoint",
+    "title": "服务接入点",
+    "section": "developer-reference",
+    "last_modified_ms": 1760081725000,
+    "last_modified_iso": "2025-10-10T15:35:25+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-errorcodes",
+    "title": "公共错误码",
+    "section": "developer-reference",
+    "last_modified_ms": 1767081651000,
+    "last_modified_iso": "2025-12-30T16:00:51+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-execcontainercommand",
+    "title": "ExecContainerCommand - 在容器内部执行命令",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670570000,
+    "last_modified_iso": "2025-10-17T11:09:30+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-listtagresources",
+    "title": "ListTagResources - 查询ECI资源绑定的标签信息",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669896000,
+    "last_modified_iso": "2025-10-17T10:58:16+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-listusage",
+    "title": "ListUsage - 查询权益配额",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670304000,
+    "last_modified_iso": "2025-10-17T11:05:04+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-overview",
+    "title": "API概览",
+    "section": "developer-reference",
+    "last_modified_ms": 1761880662000,
+    "last_modified_iso": "2025-10-31T11:17:42+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-ram",
+    "title": "授权信息",
+    "section": "developer-reference",
+    "last_modified_ms": 1749713786000,
+    "last_modified_iso": "2025-06-12T15:36:26+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-resizecontainergroupvolume",
+    "title": "ResizeContainerGroupVolume - 扩容容器组的数据卷",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670131000,
+    "last_modified_iso": "2025-10-17T11:02:11+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-restartcontainergroup",
+    "title": "RestartContainerGroup - 重启一个容器组",
+    "section": "developer-reference",
+    "last_modified_ms": 1760671652000,
+    "last_modified_iso": "2025-10-17T11:27:32+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-tagresources",
+    "title": "TagResources - 为ECI资源绑定标签",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670330000,
+    "last_modified_iso": "2025-10-17T11:05:30+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-untagresources",
+    "title": "UntagResources - 为ECI资源解绑标签",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669929000,
+    "last_modified_iso": "2025-10-17T10:58:49+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-updatecontainergroup",
+    "title": "UpdateContainerGroup - 更新一个容器组",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670503000,
+    "last_modified_iso": "2025-10-17T11:08:23+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-updatedatacache",
+    "title": "UpdateDataCache - 更新数据缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760670056000,
+    "last_modified_iso": "2025-10-17T11:00:56+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-updateimagecache",
+    "title": "UpdateImageCache - 更新一个镜像缓存",
+    "section": "developer-reference",
+    "last_modified_ms": 1760669969000,
+    "last_modified_iso": "2025-10-17T10:59:29+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/api-eci-2018-08-08-updatevirtualnode",
+    "title": "UpdateVirtualNode - 更新一个虚拟节点",
+    "section": "developer-reference",
+    "last_modified_ms": 1761893311000,
+    "last_modified_iso": "2025-10-31T14:48:31+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/getting-started",
+    "title": "快速开始",
+    "section": "developer-reference",
+    "last_modified_ms": 1667385141000,
+    "last_modified_iso": "2022-11-02T18:32:21+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/overview-2",
+    "title": "SDK概览",
+    "section": "developer-reference",
+    "last_modified_ms": 1754898788000,
+    "last_modified_iso": "2025-08-11T15:53:08+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/developer-reference/usage-scenarios",
+    "title": "使用场景",
+    "section": "developer-reference",
+    "last_modified_ms": 1700043258000,
+    "last_modified_iso": "2023-11-15T18:14:18+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/automatically-match-an-image-cache-to-create-an-elastic-container-instance",
+    "title": "自动匹配镜像缓存创建ECI实例",
+    "section": "getting-started",
+    "last_modified_ms": 1706863253000,
+    "last_modified_iso": "2024-02-02T16:40:53+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/connect-to-an-elastic-container-instance",
+    "title": "通过Workbench连接ECI实例",
+    "section": "getting-started",
+    "last_modified_ms": 1758534267000,
+    "last_modified_iso": "2025-09-22T17:44:27+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/create-an-instance-and-mount-a-nas-volume",
+    "title": "创建ECI实例并挂载NAS数据卷",
+    "section": "getting-started",
+    "last_modified_ms": 1716255449000,
+    "last_modified_iso": "2024-05-21T09:37:29+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/delete-elastic-container-instances",
+    "title": "删除ECI实例",
+    "section": "getting-started",
+    "last_modified_ms": 1712133244000,
+    "last_modified_iso": "2024-04-03T16:34:04+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/illustrate-elastic-container-instances",
+    "title": "图说ECI实例",
+    "section": "getting-started",
+    "last_modified_ms": 1693274788000,
+    "last_modified_iso": "2023-08-29T10:06:28+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/illustrate-image-caches",
+    "title": "图说镜像缓存",
+    "section": "getting-started",
+    "last_modified_ms": 1672307159000,
+    "last_modified_iso": "2022-12-29T17:45:59+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/pull-an-image-from-docker-hub-to-create-an-elastic-container-instance",
+    "title": "从Docker Hub拉取镜像创建实例",
+    "section": "getting-started",
+    "last_modified_ms": 1767146298000,
+    "last_modified_iso": "2025-12-31T09:58:18+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/use-a-centos-image-to-create-an-elastic-container-instance",
+    "title": "使用CentOS镜像创建ECI实例",
+    "section": "getting-started",
+    "last_modified_ms": 1723181163000,
+    "last_modified_iso": "2024-08-09T13:26:03+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/use-an-nginx-image-to-create-an-elastic-container-instance",
+    "title": "使用Nginx镜像创建ECI实例",
+    "section": "getting-started",
+    "last_modified_ms": 1706858823000,
+    "last_modified_iso": "2024-02-02T15:27:03+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/use-coredump-to-analyze-instance-program-exceptions-2",
+    "title": "使用coredump分析实例程序异常",
+    "section": "getting-started",
+    "last_modified_ms": 1761135856000,
+    "last_modified_iso": "2025-10-22T20:24:16+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/use-elastic-container-instance-in-ask-and-ack",
+    "title": "通过ACK Serverless集群使用ECI",
+    "section": "getting-started",
+    "last_modified_ms": 1716255494000,
+    "last_modified_iso": "2024-05-21T09:38:14+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/use-elastic-container-instances",
+    "title": "一图看懂ECI使用流程",
+    "section": "getting-started",
+    "last_modified_ms": 1693274759000,
+    "last_modified_iso": "2023-08-29T10:05:59+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/getting-started/view-events-and-logs-of-an-elastic-container-instance",
+    "title": "查看ECI实例的事件、日志和监控信息",
+    "section": "getting-started",
+    "last_modified_ms": 1688538559000,
+    "last_modified_iso": "2023-07-05T14:29:19+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/benefits",
+    "title": "产品优势",
+    "section": "product-overview",
+    "last_modified_ms": 1693362205000,
+    "last_modified_iso": "2023-08-30T10:23:25+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/billing-overview",
+    "title": "计费概述",
+    "section": "product-overview",
+    "last_modified_ms": 1754277590000,
+    "last_modified_iso": "2025-08-04T11:19:50+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/data-cache-billing",
+    "title": "数据缓存计费",
+    "section": "product-overview",
+    "last_modified_ms": 1692251807000,
+    "last_modified_iso": "2023-08-17T13:56:47+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/elastic-container-instances",
+    "title": "ECI实例计费",
+    "section": "product-overview",
+    "last_modified_ms": 1732695305000,
+    "last_modified_iso": "2024-11-27T16:15:05+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/features",
+    "title": "功能特性",
+    "section": "product-overview",
+    "last_modified_ms": 1693879397000,
+    "last_modified_iso": "2023-09-05T10:03:17+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/function-offline-stop-supporting-the-startup-template-function",
+    "title": "【功能下线】停止支持启动模板功能",
+    "section": "product-overview",
+    "last_modified_ms": 1693216213000,
+    "last_modified_iso": "2023-08-28T17:50:13+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/function-release-online-data-cache-function",
+    "title": "【功能发布】数据缓存",
+    "section": "product-overview",
+    "last_modified_ms": 1702001709000,
+    "last_modified_iso": "2023-12-08T10:15:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/function-release-record",
+    "title": "功能发布记录",
+    "section": "product-overview",
+    "last_modified_ms": 1729231092000,
+    "last_modified_iso": "2024-10-18T13:58:12+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/how-to-disable-eci-services-or-stop-billing",
+    "title": "如何关闭ECI服务或停止计费",
+    "section": "product-overview",
+    "last_modified_ms": 1713236942000,
+    "last_modified_iso": "2024-04-16T11:09:02+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/image-caches",
+    "title": "镜像缓存计费",
+    "section": "product-overview",
+    "last_modified_ms": 1729586379000,
+    "last_modified_iso": "2024-10-22T16:39:39+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/limits",
+    "title": "使用限制",
+    "section": "product-overview",
+    "last_modified_ms": 1729231009000,
+    "last_modified_iso": "2024-10-18T13:56:49+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/query-split-bills-of-elastic-container-instances-based-on-tags",
+    "title": "基于标签查询ECI分账账单",
+    "section": "product-overview",
+    "last_modified_ms": 1758534363000,
+    "last_modified_iso": "2025-09-22T17:46:03+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/regions-and-zones",
+    "title": "地域和可用区",
+    "section": "product-overview",
+    "last_modified_ms": 1766113847000,
+    "last_modified_iso": "2025-12-19T11:10:47+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/runtime-update-records",
+    "title": "运行时变更记录",
+    "section": "product-overview",
+    "last_modified_ms": 1750225363000,
+    "last_modified_iso": "2025-06-18T13:42:43+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/scenarios",
+    "title": "应用场景",
+    "section": "product-overview",
+    "last_modified_ms": 1693879406000,
+    "last_modified_iso": "2023-09-05T10:03:26+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/supported-alibaba-cloud-services",
+    "title": "支持的云服务",
+    "section": "product-overview",
+    "last_modified_ms": 1693879058000,
+    "last_modified_iso": "2023-09-05T09:57:38+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/temporary-storage-space",
+    "title": "临时存储空间计费",
+    "section": "product-overview",
+    "last_modified_ms": 1682572753000,
+    "last_modified_iso": "2023-04-27T13:19:13+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/terms",
+    "title": "基本概念",
+    "section": "product-overview",
+    "last_modified_ms": 1733367890000,
+    "last_modified_iso": "2024-12-05T11:04:50+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/view-your-bills",
+    "title": "账单查询",
+    "section": "product-overview",
+    "last_modified_ms": 1758534569000,
+    "last_modified_iso": "2025-09-22T17:49:29+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/virtual-node-billing",
+    "title": "虚拟节点（VNode）计费",
+    "section": "product-overview",
+    "last_modified_ms": 1754277575000,
+    "last_modified_iso": "2025-08-04T11:19:35+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/product-overview/what-is-elastic-container-instance",
+    "title": "什么是弹性容器实例",
+    "section": "product-overview",
+    "last_modified_ms": 1739929940000,
+    "last_modified_iso": "2025-02-19T09:52:20+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/security-and-compliance/api-eci-2018-08-08-ram",
+    "title": "授权信息",
+    "section": "security-and-compliance",
+    "last_modified_ms": 1707188389000,
+    "last_modified_iso": "2024-02-06T10:59:49+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/security-and-compliance/eci",
+    "title": "弹性容器实例系统权限策略参考",
+    "section": "security-and-compliance",
+    "last_modified_ms": 1719468613000,
+    "last_modified_iso": "2024-06-27T14:10:13+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/security-and-compliance/eci-custom-permission-policy-reference",
+    "title": "弹性容器实例自定义权限策略参考",
+    "section": "security-and-compliance",
+    "last_modified_ms": 1748314488000,
+    "last_modified_iso": "2025-05-27T10:54:48+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/security-and-compliance/elastic-container-instance-service-linked-role",
+    "title": "AliyunServiceRoleForECI",
+    "section": "security-and-compliance",
+    "last_modified_ms": 1707188396000,
+    "last_modified_iso": "2024-02-06T10:59:56+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/security-and-compliance/identity-management",
+    "title": "身份管理",
+    "section": "security-and-compliance",
+    "last_modified_ms": 1741058294000,
+    "last_modified_iso": "2025-03-04T11:18:14+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/security-and-compliance/service-linked-role-for-virtual-nodes",
+    "title": "AliyunServiceRoleForECIVnode",
+    "section": "security-and-compliance",
+    "last_modified_ms": 1707188404000,
+    "last_modified_iso": "2024-02-06T11:00:04+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/support/eci-service-level-agreement",
+    "title": "弹性容器实例服务等级协议（SLA）",
+    "section": "support",
+    "last_modified_ms": 1611240355000,
+    "last_modified_iso": "2021-01-21T22:45:55+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/support/eci-terms-of-service",
+    "title": "弹性容器实例服务协议",
+    "section": "support",
+    "last_modified_ms": 1611240348000,
+    "last_modified_iso": "2021-01-21T22:45:48+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-an-sdk-to-create-an-elastic-container-instance",
+    "title": "通过SDK使用ECI",
+    "section": "use-an-sdk-to-create-an-elastic-container-instance",
+    "last_modified_ms": 1671516631000,
+    "last_modified_iso": "2022-12-20T14:10:31+08:00",
+    "primary_skill": "aliyun-eci-openapi",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/access-data-in-an-oss-bucket-from-elastic-container-instance",
+    "title": "在ECI中访问OSS数据",
+    "section": "use-cases",
+    "last_modified_ms": 1666581545000,
+    "last_modified_iso": "2022-10-24T11:19:05+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/access-data-in-apsara-file-storage-for-hdfs-from-eci",
+    "title": "在ECI中访问HDFS数据",
+    "section": "use-cases",
+    "last_modified_ms": 1672886737000,
+    "last_modified_iso": "2023-01-05T10:45:37+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/build-a-redis-cluster",
+    "title": "使用ECI搭建Redis集群",
+    "section": "use-cases",
+    "last_modified_ms": 1708652553000,
+    "last_modified_iso": "2024-02-23T09:42:33+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/build-wordpress",
+    "title": "使用ECI搭建WordPress应用",
+    "section": "use-cases",
+    "last_modified_ms": 1708507684000,
+    "last_modified_iso": "2024-02-21T17:28:04+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/connect-an-apsaradb-rds-database-to-elastic-container-instance",
+    "title": "配置ECI连接RDS",
+    "section": "use-cases",
+    "last_modified_ms": 1708914676000,
+    "last_modified_iso": "2024-02-26T10:31:16+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/deploy-a-spark-application",
+    "title": "使用ECI运行Spark作业",
+    "section": "use-cases",
+    "last_modified_ms": 1708914555000,
+    "last_modified_iso": "2024-02-26T10:29:15+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/deploy-jenkins-in-an-ask-cluster-and-then-create-and-deploy-an-application",
+    "title": "在ACK Serverless集群中部署Jenkins并完成应用构建和部署",
+    "section": "use-cases",
+    "last_modified_ms": 1692869072000,
+    "last_modified_iso": "2023-08-24T17:24:32+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/deploy-the-bookinfo-application-in-istio",
+    "title": "在Istio中部署Bookinfo应用",
+    "section": "use-cases",
+    "last_modified_ms": 1708914657000,
+    "last_modified_iso": "2024-02-26T10:30:57+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/obtain-timely-information-about-instances-with-insufficient-storage-space-through-cloud-monitoring",
+    "title": "通过云监控及时获取存储空间不足的实例信息",
+    "section": "use-cases",
+    "last_modified_ms": 1716441494000,
+    "last_modified_iso": "2024-05-23T13:18:14+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/query-the-creation-and-deletion-information-of-elastic-container-instances-in-actiontrail",
+    "title": "通过操作审计服务查询实例创建和删除信息",
+    "section": "use-cases",
+    "last_modified_ms": 1729579406000,
+    "last_modified_iso": "2024-10-22T14:43:26+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/release-and-deployment-management-of-container-service-based-on-auto",
+    "title": "基于弹性伸缩和云效实现容器服务的发布部署管理",
+    "section": "use-cases",
+    "last_modified_ms": 1736851104000,
+    "last_modified_iso": "2025-01-14T18:38:24+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/run-a-gpu-based-tensorflow-training-job",
+    "title": "使用ECI运行TensorFlow任务",
+    "section": "use-cases",
+    "last_modified_ms": 1707184642000,
+    "last_modified_iso": "2024-02-06T09:57:22+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/run-an-argo-workflow",
+    "title": "使用ECI运行Argo工作流",
+    "section": "use-cases",
+    "last_modified_ms": 1741832577000,
+    "last_modified_iso": "2025-03-13T10:22:57+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/run-jobs-on-a-preemptible-instance",
+    "title": "使用抢占式ECI实例运行Job任务",
+    "section": "use-cases",
+    "last_modified_ms": 1717394035000,
+    "last_modified_iso": "2024-06-03T13:53:55+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/self-built-kubernetes-cluster-on-ecs-to-access-vnode-quickly",
+    "title": "ECS上自建Kubernetes集群快速接入VNode",
+    "section": "use-cases",
+    "last_modified_ms": 1743055296000,
+    "last_modified_iso": "2025-03-27T14:01:36+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/use-an-elastic-container-instance-to-run-jobs",
+    "title": "使用ECI运行Job任务",
+    "section": "use-cases",
+    "last_modified_ms": 1736851063000,
+    "last_modified_iso": "2025-01-14T18:37:43+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/use-cases/use-and-integrate-the-elastic-container-instance-terminal",
+    "title": "使用和集成ECI Terminal",
+    "section": "use-cases",
+    "last_modified_ms": 1732867298000,
+    "last_modified_iso": "2024-11-29T16:01:38+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/accelerate-building-alpaca-lora-with-data-caching",
+    "title": "搭建Alpaca-LoRa",
+    "section": "user-guide",
+    "last_modified_ms": 1699867774000,
+    "last_modified_iso": "2023-11-13T17:29:34+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/add-elastic-container-instances-to-an-slb-instance",
+    "title": "为ECI实例配置负载均衡",
+    "section": "user-guide",
+    "last_modified_ms": 1716528529000,
+    "last_modified_iso": "2024-05-24T13:28:49+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/annotations-that-can-be-added-to-create-an-image-cache",
+    "title": "ImageCache Annotation",
+    "section": "user-guide",
+    "last_modified_ms": 1730171109000,
+    "last_modified_iso": "2024-10-29T11:05:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/annotations-that-can-be-added-to-create-an-image-cache-1",
+    "title": "ImageCache Annotation",
+    "section": "user-guide",
+    "last_modified_ms": 1730171144000,
+    "last_modified_iso": "2024-10-29T11:05:44+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/apply-savings-plans",
+    "title": "使用节省计划",
+    "section": "user-guide",
+    "last_modified_ms": 1732523769000,
+    "last_modified_iso": "2024-11-25T16:36:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/apply-savings-plans-1",
+    "title": "使用节省计划",
+    "section": "user-guide",
+    "last_modified_ms": 1732523756000,
+    "last_modified_iso": "2024-11-25T16:35:56+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/apply-savings-plans-2",
+    "title": "使用节省计划",
+    "section": "user-guide",
+    "last_modified_ms": 1732523730000,
+    "last_modified_iso": "2024-11-25T16:35:30+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/assign-a-ram-role-to-a-pod",
+    "title": "为ECI Pod绑定RAM角色",
+    "section": "user-guide",
+    "last_modified_ms": 1724911369000,
+    "last_modified_iso": "2024-08-29T14:02:49+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/assign-a-security-group",
+    "title": "配置安全组",
+    "section": "user-guide",
+    "last_modified_ms": 1709193985000,
+    "last_modified_iso": "2024-02-29T16:06:25+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/assign-a-security-group-1",
+    "title": "配置ECI Pod所属安全组",
+    "section": "user-guide",
+    "last_modified_ms": 1705052290000,
+    "last_modified_iso": "2024-01-12T17:38:10+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/assign-a-security-group-2",
+    "title": "配置ECI实例所属安全组",
+    "section": "user-guide",
+    "last_modified_ms": 1705024916000,
+    "last_modified_iso": "2024-01-12T10:01:56+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/assign-an-ipv6-address-to-an-elastic-container-instance",
+    "title": "为ECI Pod分配IPv6地址",
+    "section": "user-guide",
+    "last_modified_ms": 1705642400000,
+    "last_modified_iso": "2024-01-19T13:33:20+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/assign-an-ipv6-address-to-an-elastic-container-instance-1",
+    "title": "为ECI实例分配IPv6地址",
+    "section": "user-guide",
+    "last_modified_ms": 1705642367000,
+    "last_modified_iso": "2024-01-19T13:32:47+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/assign-an-ipv6-address-to-an-elastic-container-instance-2",
+    "title": "配置IPv6地址",
+    "section": "user-guide",
+    "last_modified_ms": 1736851054000,
+    "last_modified_iso": "2025-01-14T18:37:34+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/automatically-scale-elastic-container-instances-based-on-real-time-workloads",
+    "title": "根据实时负载自动扩缩容ECI实例",
+    "section": "user-guide",
+    "last_modified_ms": 1758531959000,
+    "last_modified_iso": "2025-09-22T17:05:59+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/bind-custom-tags-to-a-pod",
+    "title": "为ECI Pod绑定自定义标签",
+    "section": "user-guide",
+    "last_modified_ms": 1706600525000,
+    "last_modified_iso": "2024-01-30T15:42:05+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/build-an-application-similar-to-a-wonderful-duck-camera",
+    "title": "搭建类似妙鸭相机的应用",
+    "section": "user-guide",
+    "last_modified_ms": 1741845615000,
+    "last_modified_iso": "2025-03-13T14:00:15+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/build-an-application-similar-to-a-wonderful-duck-camera-1",
+    "title": "搭建类似妙鸭相机的应用",
+    "section": "user-guide",
+    "last_modified_ms": 1758531377000,
+    "last_modified_iso": "2025-09-22T16:56:17+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/change-the-image-of-a-pod-without-changing-the-ip-address",
+    "title": "修改ECI Pod的镜像并保持IP不变",
+    "section": "user-guide",
+    "last_modified_ms": 1766048637000,
+    "last_modified_iso": "2025-12-18T17:03:57+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/change-the-image-of-a-pod-without-changing-the-ip-address-2",
+    "title": "修改ECI Pod的镜像并保持IP不变",
+    "section": "user-guide",
+    "last_modified_ms": 1705025330000,
+    "last_modified_iso": "2024-01-12T10:08:50+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/cloud-storage-overview",
+    "title": "云存储概述",
+    "section": "user-guide",
+    "last_modified_ms": 1718159131000,
+    "last_modified_iso": "2024-06-12T10:25:31+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/collect-logs-by-using-environment-variables",
+    "title": "通过环境变量方式采集日志",
+    "section": "user-guide",
+    "last_modified_ms": 1755488057000,
+    "last_modified_iso": "2025-08-18T11:34:17+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/collect-logs-by-using-environment-variables-1",
+    "title": "通过环境变量方式采集日志",
+    "section": "user-guide",
+    "last_modified_ms": 1732067753000,
+    "last_modified_iso": "2024-11-20T09:55:53+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/collect-logs-by-using-log-service-crds",
+    "title": "通过SLS CRD采集日志",
+    "section": "user-guide",
+    "last_modified_ms": 1766559765000,
+    "last_modified_iso": "2025-12-24T15:02:45+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/collect-logs-of-jobs",
+    "title": "采集Job任务的日志",
+    "section": "user-guide",
+    "last_modified_ms": 1736851099000,
+    "last_modified_iso": "2025-01-14T18:38:19+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/commit-a-container-to-generate-an-image-and-push-the-image-to-an-image-repository-in-container-registry",
+    "title": "提交容器生成镜像并推送到ACR",
+    "section": "user-guide",
+    "last_modified_ms": 1713319242000,
+    "last_modified_iso": "2024-04-17T10:00:42+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/common-commands-for-vnodectl",
+    "title": "VNodectl常用命令参考",
+    "section": "user-guide",
+    "last_modified_ms": 1679988768000,
+    "last_modified_iso": "2023-03-28T15:32:48+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-a-container-image",
+    "title": "配置容器镜像",
+    "section": "user-guide",
+    "last_modified_ms": 1736851071000,
+    "last_modified_iso": "2025-01-14T18:37:51+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-a-fault-handling-policy-for-a-pod",
+    "title": "设置ECI Pod的故障处理策略",
+    "section": "user-guide",
+    "last_modified_ms": 1747980044000,
+    "last_modified_iso": "2025-05-23T14:00:44+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-a-security-context-for-a-pod-or-container",
+    "title": "配置Security Context",
+    "section": "user-guide",
+    "last_modified_ms": 1723514320000,
+    "last_modified_iso": "2024-08-13T09:58:40+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-a-security-context-for-a-pod-or-container-1",
+    "title": "配置Security Context",
+    "section": "user-guide",
+    "last_modified_ms": 1723082522000,
+    "last_modified_iso": "2024-08-08T10:02:02+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-a-security-context-for-an-elastic-container-instance-or-a-container",
+    "title": "配置Security Context",
+    "section": "user-guide",
+    "last_modified_ms": 1756903158000,
+    "last_modified_iso": "2025-09-03T20:39:18+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-an-eci-profile",
+    "title": "配置eci-profile",
+    "section": "user-guide",
+    "last_modified_ms": 1747807395000,
+    "last_modified_iso": "2025-05-21T14:03:15+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-an-elastic-container-instance-pod-to-use-a-fixed-ip-address",
+    "title": "配置ECI Pod使用固定IP地址",
+    "section": "user-guide",
+    "last_modified_ms": 1691484844000,
+    "last_modified_iso": "2023-08-08T16:54:04+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-an-elastic-container-instance-to-use-a-fixed-ip-address",
+    "title": "配置ECI实例使用固定IP地址",
+    "section": "user-guide",
+    "last_modified_ms": 1706677852000,
+    "last_modified_iso": "2024-01-31T13:10:52+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-container-termination-messages",
+    "title": "设置容器终止消息",
+    "section": "user-guide",
+    "last_modified_ms": 1708329759000,
+    "last_modified_iso": "2024-02-19T16:02:39+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-container-termination-messages-2",
+    "title": "设置容器终止消息",
+    "section": "user-guide",
+    "last_modified_ms": 1710747533000,
+    "last_modified_iso": "2024-03-18T15:38:53+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-custom-dns-for-eci-pods",
+    "title": "为ECI Pod配置自定义DNS",
+    "section": "user-guide",
+    "last_modified_ms": 1719565387000,
+    "last_modified_iso": "2024-06-28T17:03:07+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-eci-pod-to-start-after-clusterip-ready",
+    "title": "配置ECI Pod在ClusterIP同步后再创建",
+    "section": "user-guide",
+    "last_modified_ms": 1703820771000,
+    "last_modified_iso": "2023-12-29T11:32:51+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-eci-profile-to-automatically-use-datacache",
+    "title": "配置eci-profile实现自动使用DataCache",
+    "section": "user-guide",
+    "last_modified_ms": 1694681201000,
+    "last_modified_iso": "2023-09-14T16:46:41+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-eci-profile-to-automatically-use-the-imagecache-feature",
+    "title": "配置eci-profile实现自动使用ImageCache",
+    "section": "user-guide",
+    "last_modified_ms": 1702357968000,
+    "last_modified_iso": "2023-12-12T13:12:48+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-eci-profile-to-automatically-use-the-imagecache-feature-1",
+    "title": "配置eci-profile实现自动使用ImageCache",
+    "section": "user-guide",
+    "last_modified_ms": 1702352195000,
+    "last_modified_iso": "2023-12-12T11:36:35+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-hosts-for-a-pod",
+    "title": "自定义设置ECI Pod的hosts",
+    "section": "user-guide",
+    "last_modified_ms": 1706600550000,
+    "last_modified_iso": "2024-01-30T15:42:30+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-log-collection-for-an-elastic-container-instance",
+    "title": "自定义配置ECI日志采集",
+    "section": "user-guide",
+    "last_modified_ms": 1755488011000,
+    "last_modified_iso": "2025-08-18T11:33:31+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-startup-commands-and-arguments-for-a-container",
+    "title": "设置容器启动命令和参数",
+    "section": "user-guide",
+    "last_modified_ms": 1722823017000,
+    "last_modified_iso": "2024-08-05T09:56:57+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-startup-commands-and-arguments-for-containers",
+    "title": "设置容器启动命令和参数",
+    "section": "user-guide",
+    "last_modified_ms": 1722823084000,
+    "last_modified_iso": "2024-08-05T09:58:04+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-startup-commands-and-arguments-for-containers-2",
+    "title": "设置容器启动命令和参数",
+    "section": "user-guide",
+    "last_modified_ms": 1722823127000,
+    "last_modified_iso": "2024-08-05T09:58:47+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-the-bandwidth-of-a-pod",
+    "title": "限制ECI Pod的出入带宽",
+    "section": "user-guide",
+    "last_modified_ms": 1704856742000,
+    "last_modified_iso": "2024-01-10T11:19:02+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "k8s",
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-the-bandwidth-of-a-pod-1",
+    "title": "限制ECI Pod的出入带宽",
+    "section": "user-guide",
+    "last_modified_ms": 1704856346000,
+    "last_modified_iso": "2024-01-10T11:12:26+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "k8s",
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-the-ntp-service",
+    "title": "配置NTP服务",
+    "section": "user-guide",
+    "last_modified_ms": 1706601719000,
+    "last_modified_iso": "2024-01-30T16:01:59+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-the-ntp-service-1",
+    "title": "配置NTP服务",
+    "section": "user-guide",
+    "last_modified_ms": 1706600386000,
+    "last_modified_iso": "2024-01-30T15:39:46+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/configure-the-ntp-service-2",
+    "title": "配置NTP服务",
+    "section": "user-guide",
+    "last_modified_ms": 1695280573000,
+    "last_modified_iso": "2023-09-21T15:16:13+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/connect-ask-clusters-to-arms-application-monitoring",
+    "title": "接入ARMS应用监控",
+    "section": "user-guide",
+    "last_modified_ms": 1709020853000,
+    "last_modified_iso": "2024-02-27T16:00:53+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/connection-overview",
+    "title": "ACK对接ECI",
+    "section": "user-guide",
+    "last_modified_ms": 1739269419000,
+    "last_modified_iso": "2025-02-11T18:23:39+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-pod-by-specifying-the-arm-specification",
+    "title": "指定Arm规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1731634325000,
+    "last_modified_iso": "2024-11-15T09:32:05+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-pod-by-specifying-the-gpu-specification",
+    "title": "指定GPU规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1742538098000,
+    "last_modified_iso": "2025-03-21T14:21:38+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-pod-by-specifying-the-gpu-specification-1",
+    "title": "指定GPU规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1742538220000,
+    "last_modified_iso": "2025-03-21T14:23:40+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-pod-by-specifying-the-specifications-of-a-local-disk",
+    "title": "指定本地盘规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1730786309000,
+    "last_modified_iso": "2024-11-05T13:58:29+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-pod-by-specifying-the-specifications-of-a-local-disk-1",
+    "title": "指定本地盘规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1730786335000,
+    "last_modified_iso": "2024-11-05T13:58:55+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-pod-using-datacache",
+    "title": "使用DataCache创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1736851079000,
+    "last_modified_iso": "2025-01-14T18:37:59+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-preemptible-elastic-container-instance",
+    "title": "创建抢占式实例",
+    "section": "user-guide",
+    "last_modified_ms": 1731998847000,
+    "last_modified_iso": "2024-11-19T14:47:27+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-preemptible-elastic-container-instance-1",
+    "title": "创建抢占式实例",
+    "section": "user-guide",
+    "last_modified_ms": 1731999405000,
+    "last_modified_iso": "2024-11-19T14:56:45+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-a-preemptible-elastic-container-instance-2",
+    "title": "创建抢占式实例",
+    "section": "user-guide",
+    "last_modified_ms": 1731999440000,
+    "last_modified_iso": "2024-11-19T14:57:20+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-an-instance-by-specifying-a-local-disk-type",
+    "title": "指定本地盘规格创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1730786289000,
+    "last_modified_iso": "2024-11-05T13:58:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-an-instance-by-specifying-the-arm-type",
+    "title": "创建Arm架构的实例",
+    "section": "user-guide",
+    "last_modified_ms": 1721642067000,
+    "last_modified_iso": "2024-07-22T17:54:27+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-an-instance-by-specifying-the-gpu-type",
+    "title": "指定GPU规格创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1742538046000,
+    "last_modified_iso": "2025-03-21T14:20:46+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-an-instance-of-the-specified-x86-type",
+    "title": "指定x86规格创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1743158594000,
+    "last_modified_iso": "2025-03-28T18:43:14+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-an-instance-using-the-data-cache",
+    "title": "使用数据缓存创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1700115408000,
+    "last_modified_iso": "2023-11-16T14:16:48+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-and-manage-data-caches",
+    "title": "创建和管理数据缓存",
+    "section": "user-guide",
+    "last_modified_ms": 1736851086000,
+    "last_modified_iso": "2025-01-14T18:38:06+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-and-manage-datacache",
+    "title": "创建和管理DataCache",
+    "section": "user-guide",
+    "last_modified_ms": 1721721928000,
+    "last_modified_iso": "2024-07-23T16:05:28+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-pods-by-specifying-multiple-specifications",
+    "title": "多规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1743158693000,
+    "last_modified_iso": "2025-03-28T18:44:53+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-pods-by-specifying-multiple-specifications-1",
+    "title": "多规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1743158660000,
+    "last_modified_iso": "2025-03-28T18:44:20+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/create-pods-in-multiple-zones",
+    "title": "多可用区创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1747980033000,
+    "last_modified_iso": "2025-05-23T14:00:33+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/custom-events-of-elastic-container-instance",
+    "title": "ECI自定义事件",
+    "section": "user-guide",
+    "last_modified_ms": 1756806917000,
+    "last_modified_iso": "2025-09-02T17:55:17+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/customize-the-maximum-pending-duration-of-the-eci-pod",
+    "title": "自定义设置ECI Pod的最大Pending时长",
+    "section": "user-guide",
+    "last_modified_ms": 1719799431000,
+    "last_modified_iso": "2024-07-01T10:03:51+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "k8s",
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/data-cache-overview",
+    "title": "数据缓存概述",
+    "section": "user-guide",
+    "last_modified_ms": 1698895224000,
+    "last_modified_iso": "2023-11-02T11:20:24+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/data-caching-overview",
+    "title": "数据缓存概述",
+    "section": "user-guide",
+    "last_modified_ms": 1698895248000,
+    "last_modified_iso": "2023-11-02T11:20:48+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/declaring-container-types",
+    "title": "强制终止Sidecar容器并忽略容器退出码",
+    "section": "user-guide",
+    "last_modified_ms": 1704937989000,
+    "last_modified_iso": "2024-01-11T09:53:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-a-deepseek-r1-model-and-implement-scaling-of-pods-in-the-model",
+    "title": "部署DeepSeek-R1系列模型并实现弹性扩缩容",
+    "section": "user-guide",
+    "last_modified_ms": 1741845689000,
+    "last_modified_iso": "2025-03-13T14:01:29+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-an-imagecache-crd",
+    "title": "部署ImageCache CRD",
+    "section": "user-guide",
+    "last_modified_ms": 1723630029000,
+    "last_modified_iso": "2024-08-14T18:07:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-datacache-crd",
+    "title": "部署DataCache CRD",
+    "section": "user-guide",
+    "last_modified_ms": 1704699830000,
+    "last_modified_iso": "2024-01-08T15:43:50+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-deepseek",
+    "title": "部署DeepSeek-R1系列模型",
+    "section": "user-guide",
+    "last_modified_ms": 1741845674000,
+    "last_modified_iso": "2025-03-13T14:01:14+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-deepseek-1",
+    "title": "部署DeepSeek-R1系列模型",
+    "section": "user-guide",
+    "last_modified_ms": 1758531782000,
+    "last_modified_iso": "2025-09-22T17:03:02+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-pods-in-multiple-zones",
+    "title": "多可用区创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1731636622000,
+    "last_modified_iso": "2024-11-15T10:10:22+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-qwq-32b-model",
+    "title": "部署QwQ-32B模型",
+    "section": "user-guide",
+    "last_modified_ms": 1741918917000,
+    "last_modified_iso": "2025-03-14T10:21:57+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-qwq-32b-model-1",
+    "title": "部署QwQ-32B模型",
+    "section": "user-guide",
+    "last_modified_ms": 1741918932000,
+    "last_modified_iso": "2025-03-14T10:22:12+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploy-the-ccm",
+    "title": "部署CCM",
+    "section": "user-guide",
+    "last_modified_ms": 1689734829000,
+    "last_modified_iso": "2023-07-19T10:47:09+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploying-tongyi-qiwen-application",
+    "title": "部署通义千问应用",
+    "section": "user-guide",
+    "last_modified_ms": 1741845599000,
+    "last_modified_iso": "2025-03-13T13:59:59+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/deploying-tongyi-qiwen-application-1",
+    "title": "部署通义千问应用",
+    "section": "user-guide",
+    "last_modified_ms": 1716255391000,
+    "last_modified_iso": "2024-05-21T09:36:31+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/eci-custom-condition",
+    "title": "ECI自定义condition",
+    "section": "user-guide",
+    "last_modified_ms": 1705400031000,
+    "last_modified_iso": "2024-01-16T18:13:51+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/enable-internet-access",
+    "title": "为ECI实例配置公网连接",
+    "section": "user-guide",
+    "last_modified_ms": 1704965107000,
+    "last_modified_iso": "2024-01-11T17:25:07+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/enable-internet-access-1",
+    "title": "为ECI Pod配置公网连接",
+    "section": "user-guide",
+    "last_modified_ms": 1704965076000,
+    "last_modified_iso": "2024-01-11T17:24:36+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/enable-internet-access-2",
+    "title": "为ECI Pod配置公网连接",
+    "section": "user-guide",
+    "last_modified_ms": 1705025262000,
+    "last_modified_iso": "2024-01-12T10:07:42+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/encrypt-temporary-storage-space",
+    "title": "加密临时存储空间",
+    "section": "user-guide",
+    "last_modified_ms": 1697441120000,
+    "last_modified_iso": "2023-10-16T15:25:20+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/faq",
+    "title": "常见问题",
+    "section": "user-guide",
+    "last_modified_ms": 1736851109000,
+    "last_modified_iso": "2025-01-14T18:38:29+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/faq-1",
+    "title": "常见问题",
+    "section": "user-guide",
+    "last_modified_ms": 1672111661000,
+    "last_modified_iso": "2022-12-27T11:27:41+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/faq-2",
+    "title": "常见问题",
+    "section": "user-guide",
+    "last_modified_ms": 1702018429000,
+    "last_modified_iso": "2023-12-08T14:53:49+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/fine-grained-resource-control-using-resource-groups-25",
+    "title": "使用资源组进行精细化资源控制",
+    "section": "user-guide",
+    "last_modified_ms": 1769486472000,
+    "last_modified_iso": "2026-01-27T12:01:12+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/grant-permissions-to-ram-users",
+    "title": "为RAM用户授权",
+    "section": "user-guide",
+    "last_modified_ms": 1733814591000,
+    "last_modified_iso": "2024-12-10T15:09:51+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/ignore-specific-containers-during-resource-adjustment",
+    "title": "配置资源规整忽略特定容器",
+    "section": "user-guide",
+    "last_modified_ms": 1706754327000,
+    "last_modified_iso": "2024-02-01T10:25:27+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/ignore-specific-containers-when-the-system-adjusts-resources",
+    "title": "配置资源规整时忽略特定容器",
+    "section": "user-guide",
+    "last_modified_ms": 1706754374000,
+    "last_modified_iso": "2024-02-01T10:26:14+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/ignore-specific-containers-when-the-system-adjusts-resources-1",
+    "title": "配置资源规整时忽略特定容器",
+    "section": "user-guide",
+    "last_modified_ms": 1706754356000,
+    "last_modified_iso": "2024-02-01T10:25:56+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/ignore-the-noready-state-of-the-sidecar-container",
+    "title": "忽略Sidecar容器的NotReady状态",
+    "section": "user-guide",
+    "last_modified_ms": 1703820651000,
+    "last_modified_iso": "2023-12-29T11:30:51+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/implement-eci-pod-zone-distribution-or-affinity-scheduling",
+    "title": "实现ECI Pod可用区打散或亲和调度",
+    "section": "user-guide",
+    "last_modified_ms": 1732846665000,
+    "last_modified_iso": "2024-11-29T10:17:45+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/implementation-of-text-light-and-shadow-by-stable-diffusion-extension",
+    "title": "通过Stable Diffusion扩展插件实现文字光影图",
+    "section": "user-guide",
+    "last_modified_ms": 1758531189000,
+    "last_modified_iso": "2025-09-22T16:53:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/increase-the-capacity-of-the-temporary-storage-space",
+    "title": "增加临时存储空间大小",
+    "section": "user-guide",
+    "last_modified_ms": 1723514231000,
+    "last_modified_iso": "2024-08-13T09:57:11+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/increase-the-capacity-of-the-temporary-storage-space-1",
+    "title": "增加临时存储空间大小",
+    "section": "user-guide",
+    "last_modified_ms": 1721972117000,
+    "last_modified_iso": "2024-07-26T13:35:17+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/increase-the-capacity-of-the-temporary-storage-space-2",
+    "title": "增加临时存储空间大小",
+    "section": "user-guide",
+    "last_modified_ms": 1723514246000,
+    "last_modified_iso": "2024-08-13T09:57:26+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/kubernetes-imagecache-api",
+    "title": "kubernetes ImageCache API",
+    "section": "user-guide",
+    "last_modified_ms": 1672111578000,
+    "last_modified_iso": "2022-12-27T11:26:18+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/kubernetes-imagecache-api-2",
+    "title": "kubernetes ImageCache API",
+    "section": "user-guide",
+    "last_modified_ms": 1672111627000,
+    "last_modified_iso": "2022-12-27T11:27:07+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/lifecycle-of-an-elastic-container-instance",
+    "title": "ECI Pod生命周期",
+    "section": "user-guide",
+    "last_modified_ms": 1688629996000,
+    "last_modified_iso": "2023-07-06T15:53:16+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/lifecycle-of-an-elastic-container-instance-1",
+    "title": "ECI实例生命周期介绍",
+    "section": "user-guide",
+    "last_modified_ms": 1688629971000,
+    "last_modified_iso": "2023-07-06T15:52:51+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/lifecycle-of-an-elastic-container-instance-2",
+    "title": "ECI Pod生命周期",
+    "section": "user-guide",
+    "last_modified_ms": 1736851075000,
+    "last_modified_iso": "2025-01-14T18:37:55+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/limit-the-bandwidth-of-an-elastic-container-instance",
+    "title": "限制ECI实例的出入带宽",
+    "section": "user-guide",
+    "last_modified_ms": 1705025229000,
+    "last_modified_iso": "2024-01-12T10:07:09+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/manage-an-image-cache",
+    "title": "管理镜像缓存",
+    "section": "user-guide",
+    "last_modified_ms": 1713318357000,
+    "last_modified_iso": "2024-04-17T09:45:57+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/manage-image-caches",
+    "title": "管理ImageCache",
+    "section": "user-guide",
+    "last_modified_ms": 1736851091000,
+    "last_modified_iso": "2025-01-14T18:38:11+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/manage-image-caches-1",
+    "title": "管理ImageCache",
+    "section": "user-guide",
+    "last_modified_ms": 1732604402000,
+    "last_modified_iso": "2024-11-26T15:00:02+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/manually-connect-a-vnode-to-a-self-managed-kubernetes-cluster",
+    "title": "接入VNode（手动）",
+    "section": "user-guide",
+    "last_modified_ms": 1750403030000,
+    "last_modified_iso": "2025-06-20T15:03:50+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-a-configfile-volume",
+    "title": "挂载ConfigFile数据卷",
+    "section": "user-guide",
+    "last_modified_ms": 1731636185000,
+    "last_modified_iso": "2024-11-15T10:03:05+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-a-disk-volume",
+    "title": "挂载云盘数据卷",
+    "section": "user-guide",
+    "last_modified_ms": 1728539067000,
+    "last_modified_iso": "2024-10-10T13:44:27+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-a-disk-volume-3",
+    "title": "挂载云盘",
+    "section": "user-guide",
+    "last_modified_ms": 1707184720000,
+    "last_modified_iso": "2024-02-06T09:58:40+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-a-local-disk-to-a-pod",
+    "title": "挂载本地盘",
+    "section": "user-guide",
+    "last_modified_ms": 1705642289000,
+    "last_modified_iso": "2024-01-19T13:31:29+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "k8s",
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-a-nas-file-system-1",
+    "title": "挂载NAS",
+    "section": "user-guide",
+    "last_modified_ms": 1707184739000,
+    "last_modified_iso": "2024-02-06T09:58:59+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-a-nas-volume",
+    "title": "挂载NAS数据卷",
+    "section": "user-guide",
+    "last_modified_ms": 1721885696000,
+    "last_modified_iso": "2024-07-25T13:34:56+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-an-emptydir-volume",
+    "title": "挂载EmptyDir数据卷",
+    "section": "user-guide",
+    "last_modified_ms": 1723707136000,
+    "last_modified_iso": "2024-08-15T15:32:16+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-an-emptydir-volume-to-modify-the-shm-size-of-a-pod",
+    "title": "挂载EmptyDir Volume以修改shm大小",
+    "section": "user-guide",
+    "last_modified_ms": 1708652652000,
+    "last_modified_iso": "2024-02-23T09:44:12+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "k8s",
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-an-oss-bucket-as-a-volume-1",
+    "title": "挂载OSS",
+    "section": "user-guide",
+    "last_modified_ms": 1707184752000,
+    "last_modified_iso": "2024-02-06T09:59:12+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-an-oss-bucket-to-an-elastic-container-instance-as-a-volume",
+    "title": "挂载OSS数据卷",
+    "section": "user-guide",
+    "last_modified_ms": 1722240111000,
+    "last_modified_iso": "2024-07-29T16:01:51+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/mount-stdlog",
+    "title": "挂载stdlog实现挂载容器标准输出日志",
+    "section": "user-guide",
+    "last_modified_ms": 1693362118000,
+    "last_modified_iso": "2023-08-30T10:21:58+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/obtain-the-metadata-from-a-container",
+    "title": "在容器内获取元数据",
+    "section": "user-guide",
+    "last_modified_ms": 1722494105000,
+    "last_modified_iso": "2024-08-01T14:35:05+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/obtain-the-metadata-from-a-container-1",
+    "title": "在容器内获取元数据",
+    "section": "user-guide",
+    "last_modified_ms": 1728871911000,
+    "last_modified_iso": "2024-10-14T10:11:51+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/obtain-the-metadata-from-a-container-2",
+    "title": "在容器内获取元数据",
+    "section": "user-guide",
+    "last_modified_ms": 1722494153000,
+    "last_modified_iso": "2024-08-01T14:35:53+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview",
+    "title": "实例概述",
+    "section": "user-guide",
+    "last_modified_ms": 1729231035000,
+    "last_modified_iso": "2024-10-18T13:57:15+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview-1",
+    "title": "ECI Pod概述",
+    "section": "user-guide",
+    "last_modified_ms": 1736850772000,
+    "last_modified_iso": "2025-01-14T18:32:52+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview-3",
+    "title": "自建Kubernetes集群对接ECI",
+    "section": "user-guide",
+    "last_modified_ms": 1741076421000,
+    "last_modified_iso": "2025-03-04T16:20:21+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview-4",
+    "title": "ECI Pod概述",
+    "section": "user-guide",
+    "last_modified_ms": 1741744802000,
+    "last_modified_iso": "2025-03-12T10:00:02+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview-of-image-caches",
+    "title": "镜像缓存概述",
+    "section": "user-guide",
+    "last_modified_ms": 1732604591000,
+    "last_modified_iso": "2024-11-26T15:03:11+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview-of-image-caches-1",
+    "title": "镜像缓存概述",
+    "section": "user-guide",
+    "last_modified_ms": 1732604558000,
+    "last_modified_iso": "2024-11-26T15:02:38+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview-of-image-caches-2",
+    "title": "镜像缓存概述",
+    "section": "user-guide",
+    "last_modified_ms": 1732604529000,
+    "last_modified_iso": "2024-11-26T15:02:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/overview-of-volumes",
+    "title": "数据卷概述",
+    "section": "user-guide",
+    "last_modified_ms": 1703559468000,
+    "last_modified_iso": "2023-12-26T10:57:48+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/pod-annotations",
+    "title": "ECI Pod Annotation",
+    "section": "user-guide",
+    "last_modified_ms": 1745474587000,
+    "last_modified_iso": "2025-04-24T14:03:07+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/pod-annotations-1",
+    "title": "ECI Pod Annotation",
+    "section": "user-guide",
+    "last_modified_ms": 1745474149000,
+    "last_modified_iso": "2025-04-24T13:55:49+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/pull-images-from-a-container-registry-enterprise-edition-instance-without-using-a-secret",
+    "title": "免密拉取ACR镜像",
+    "section": "user-guide",
+    "last_modified_ms": 1740971384000,
+    "last_modified_iso": "2025-03-03T11:09:44+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/pull-images-from-a-container-registry-enterprise-edition-instance-without-using-a-secret-1",
+    "title": "免密拉取ACR镜像",
+    "section": "user-guide",
+    "last_modified_ms": 1740971401000,
+    "last_modified_iso": "2025-03-03T11:10:01+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/pull-images-from-a-container-registry-enterprise-edition-instance-without-using-a-secret-2",
+    "title": "免密拉取ACR镜像",
+    "section": "user-guide",
+    "last_modified_ms": 1740971368000,
+    "last_modified_iso": "2025-03-03T11:09:28+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/schedule-pods-to-a-vnode",
+    "title": "将Pod调度到VNode",
+    "section": "user-guide",
+    "last_modified_ms": 1666755509000,
+    "last_modified_iso": "2022-10-26T11:38:29+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/schedule-pods-to-virtual-kubelet",
+    "title": "调度Pod到x86架构的虚拟节点",
+    "section": "user-guide",
+    "last_modified_ms": 1747980016000,
+    "last_modified_iso": "2025-05-23T14:00:16+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/scheduling-pods-to-virtual-nodes-in-the-arm-architecture",
+    "title": "调度Pod到Arm架构的虚拟节点",
+    "section": "user-guide",
+    "last_modified_ms": 1721642176000,
+    "last_modified_iso": "2024-07-22T17:56:16+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/set-container-start-and-exit-order",
+    "title": "设置容器启动和退出顺序",
+    "section": "user-guide",
+    "last_modified_ms": 1692669436000,
+    "last_modified_iso": "2023-08-22T09:57:16+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/set-container-start-and-exit-order-1",
+    "title": "设置容器启动和退出顺序",
+    "section": "user-guide",
+    "last_modified_ms": 1692669491000,
+    "last_modified_iso": "2023-08-22T09:58:11+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-multiple-specifications-to-create-an-elastic-container-instance",
+    "title": "多规格创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1743158609000,
+    "last_modified_iso": "2025-03-28T18:43:29+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-multiple-zones-to-create-an-elastic-container-instance",
+    "title": "多可用区创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1739254942000,
+    "last_modified_iso": "2025-02-11T14:22:22+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-or-exclude-specific-ecs-instance-families-to-create-a-pod",
+    "title": "指定或排除ECS规格族创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1731464748000,
+    "last_modified_iso": "2024-11-13T10:25:48+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-or-exclude-specific-ecs-instance-families-to-create-a-pod-1",
+    "title": "指定或排除ECS规格族创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1729493516000,
+    "last_modified_iso": "2024-10-21T14:51:56+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-or-exclude-specific-generations-of-ecs-instance-families-to-create-a-pod",
+    "title": "指定或排除ECS规格代数创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1729493504000,
+    "last_modified_iso": "2024-10-21T14:51:44+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-or-exclude-specific-generations-of-ecs-instance-families-to-create-a-pod-1",
+    "title": "指定或排除ECS规格代数创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1731464762000,
+    "last_modified_iso": "2024-11-13T10:26:02+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-compute-category-to-create-a-pod",
+    "title": "指定算力类别创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1723600056000,
+    "last_modified_iso": "2024-08-14T09:47:36+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-compute-category-to-create-a-pod-1",
+    "title": "指定算力类别创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1720423413000,
+    "last_modified_iso": "2024-07-08T15:23:33+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-compute-category-to-create-an-instance",
+    "title": "指定算力类别创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1720062993000,
+    "last_modified_iso": "2024-07-04T11:16:33+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-number-of-vcpus-and-memory-size-to-create-a-pod",
+    "title": "指定vCPU和内存创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1717148156000,
+    "last_modified_iso": "2024-05-31T17:35:56+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-number-of-vcpus-and-memory-size-to-create-a-pod-1",
+    "title": "指定vCPU和内存创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1717148091000,
+    "last_modified_iso": "2024-05-31T17:34:51+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-number-of-vcpus-and-memory-size-to-create-an-elastic-container-instance",
+    "title": "指定vCPU和内存创建实例",
+    "section": "user-guide",
+    "last_modified_ms": 1717147702000,
+    "last_modified_iso": "2024-05-31T17:28:22+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-private-ip-address-of-the-eci-instance",
+    "title": "指定ECI实例的私网IP地址",
+    "section": "user-guide",
+    "last_modified_ms": 1691718833000,
+    "last_modified_iso": "2023-08-11T09:53:53+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-the-private-ip-address-of-the-eci-pod",
+    "title": "指定ECI Pod的私网IP地址",
+    "section": "user-guide",
+    "last_modified_ms": 1693879211000,
+    "last_modified_iso": "2023-09-05T10:00:11+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-time-zone",
+    "title": "设置容器时区",
+    "section": "user-guide",
+    "last_modified_ms": 1710813324000,
+    "last_modified_iso": "2024-03-19T09:55:24+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specify-time-zone-2",
+    "title": "设置容器时区",
+    "section": "user-guide",
+    "last_modified_ms": 1710813369000,
+    "last_modified_iso": "2024-03-19T09:56:09+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specifying-the-x86-specification-to-create-a-pod",
+    "title": "指定x86规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1766113149000,
+    "last_modified_iso": "2025-12-19T10:59:09+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/specifying-the-x86-specification-to-create-a-pod-1",
+    "title": "指定x86规格创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1743158681000,
+    "last_modified_iso": "2025-03-28T18:44:41+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/update-the-image-of-an-elastic-container-instance-while-keeping-the-ip-address-of-the-instance-unchanged",
+    "title": "修改ECI实例的镜像并保持IP不变",
+    "section": "user-guide",
+    "last_modified_ms": 1704965129000,
+    "last_modified_iso": "2024-01-11T17:25:29+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-alibaba-cloud-dns-privatezone-to-implement-service-discovery-in-ask-clusters",
+    "title": "基于云解析PrivateZone的服务发现",
+    "section": "user-guide",
+    "last_modified_ms": 1751360287000,
+    "last_modified_iso": "2025-07-01T16:58:07+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-alibaba-cloud-storage-services-in-ack-and-ask",
+    "title": "使用云存储",
+    "section": "user-guide",
+    "last_modified_ms": 1693968801000,
+    "last_modified_iso": "2023-09-06T10:53:21+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "k8s",
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-an-instance-ram-role-by-calling-api-operations",
+    "title": "通过API使用实例RAM角色",
+    "section": "user-guide",
+    "last_modified_ms": 1704707800000,
+    "last_modified_iso": "2024-01-08T17:56:40+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-arms-prometheus-monitoring-to-monitor-a-gpu-accelerated-elastic-container-instance",
+    "title": "通过Prometheus监控GPU实例",
+    "section": "user-guide",
+    "last_modified_ms": 1723182934000,
+    "last_modified_iso": "2024-08-09T13:55:34+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-arms-prometheus-monitoring-to-monitor-disks",
+    "title": "通过Prometheus监控磁盘",
+    "section": "user-guide",
+    "last_modified_ms": 1759203098000,
+    "last_modified_iso": "2025-09-30T11:31:38+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-auto-scaling-to-automatically-scale-elastic-container-instances",
+    "title": "通过弹性伸缩自动扩缩容ECI实例",
+    "section": "user-guide",
+    "last_modified_ms": 1721373358000,
+    "last_modified_iso": "2024-07-19T15:15:58+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-cloud-monitoring-to-monitor-eci-instances",
+    "title": "使用云监控对ECI实例进行监控",
+    "section": "user-guide",
+    "last_modified_ms": 1729490131000,
+    "last_modified_iso": "2024-10-21T13:55:31+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-cloud-monitoring-to-monitor-eci-instances-1693991084267",
+    "title": "使用云监控对ECI实例进行监控",
+    "section": "user-guide",
+    "last_modified_ms": 1729490147000,
+    "last_modified_iso": "2024-10-21T13:55:47+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-coredump-to-analyze-instance-program-exceptions",
+    "title": "使用coredump分析实例程序异常",
+    "section": "user-guide",
+    "last_modified_ms": 1761136186000,
+    "last_modified_iso": "2025-10-22T20:29:46+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-coredump-to-analyze-instance-program-exceptions-1",
+    "title": "使用coredump分析实例程序异常",
+    "section": "user-guide",
+    "last_modified_ms": 1761135970000,
+    "last_modified_iso": "2025-10-22T20:26:10+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-data-caching-to-accelerate-deployment-of-stable-diffusion-applications",
+    "title": "使用数据缓存加速部署Stable Diffusion应用",
+    "section": "user-guide",
+    "last_modified_ms": 1692342775000,
+    "last_modified_iso": "2023-08-18T15:12:55+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-datacache-to-accelerate-deployment-of-stable-diffusion-applications",
+    "title": "部署Stable Diffusion应用",
+    "section": "user-guide",
+    "last_modified_ms": 1741845569000,
+    "last_modified_iso": "2025-03-13T13:59:29+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-datacache-to-speed-up-building-alpaca-lora",
+    "title": "搭建Alpaca-LoRa",
+    "section": "user-guide",
+    "last_modified_ms": 1741845584000,
+    "last_modified_iso": "2025-03-13T13:59:44+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-eci-profile-to-schedule-pods-to-a-vnode",
+    "title": "使用eci-profile调度Pod到VNode",
+    "section": "user-guide",
+    "last_modified_ms": 1724219652000,
+    "last_modified_iso": "2024-08-21T13:54:12+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-imagecache-to-accelerate-the-creation-of-pods",
+    "title": "使用ImageCache加速创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1727167244000,
+    "last_modified_iso": "2024-09-24T16:40:44+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-imagecache-to-accelerate-the-creation-of-pods-2",
+    "title": "使用ImageCache加速创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1727167639000,
+    "last_modified_iso": "2024-09-24T16:47:19+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-probes-to-perform-health-checks-on-containers",
+    "title": "使用探针对容器进行健康检查",
+    "section": "user-guide",
+    "last_modified_ms": 1722582495000,
+    "last_modified_iso": "2024-08-02T15:08:15+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-probes-to-perform-health-checks-on-containers-1",
+    "title": "使用探针对容器进行健康检查",
+    "section": "user-guide",
+    "last_modified_ms": 1722582524000,
+    "last_modified_iso": "2024-08-02T15:08:44+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-probes-to-perform-health-checks-on-containers-2",
+    "title": "使用探针对容器进行健康检查",
+    "section": "user-guide",
+    "last_modified_ms": 1722582552000,
+    "last_modified_iso": "2024-08-02T15:09:12+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-reserved-instances",
+    "title": "使用预留实例券",
+    "section": "user-guide",
+    "last_modified_ms": 1732675363000,
+    "last_modified_iso": "2024-11-27T10:42:43+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-reserved-instances-1",
+    "title": "使用预留实例券",
+    "section": "user-guide",
+    "last_modified_ms": 1732675386000,
+    "last_modified_iso": "2024-11-27T10:43:06+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-reserved-instances-2",
+    "title": "使用预留实例券",
+    "section": "user-guide",
+    "last_modified_ms": 1732675407000,
+    "last_modified_iso": "2024-11-27T10:43:27+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-resource-groups-to-control-the-permissions-of-a-ram-user",
+    "title": "通过资源组实现RAM用户鉴权",
+    "section": "user-guide",
+    "last_modified_ms": 1671702101000,
+    "last_modified_iso": "2022-12-22T17:41:41+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-self-managed-image-repositories",
+    "title": "拉取自建镜像仓库的镜像",
+    "section": "user-guide",
+    "last_modified_ms": 1705642258000,
+    "last_modified_iso": "2024-01-19T13:30:58+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-self-managed-image-repositories-1",
+    "title": "拉取自建镜像仓库的镜像",
+    "section": "user-guide",
+    "last_modified_ms": 1705633656000,
+    "last_modified_iso": "2024-01-19T11:07:36+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-self-managed-image-repositories-2",
+    "title": "使用自建镜像仓库",
+    "section": "user-guide",
+    "last_modified_ms": 1695280465000,
+    "last_modified_iso": "2023-09-21T15:14:25+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-tags-to-authenticate-a-ram-user",
+    "title": "通过标签实现RAM用户鉴权",
+    "section": "user-guide",
+    "last_modified_ms": 1701077819000,
+    "last_modified_iso": "2023-11-27T17:36:59+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-tags-to-manage-elastic-container-instances",
+    "title": "使用标签管理ECI实例",
+    "section": "user-guide",
+    "last_modified_ms": 1706600415000,
+    "last_modified_iso": "2024-01-30T15:40:15+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-tcpdump-to-capture-packets-and-analyze-network-problems",
+    "title": "使用tcpdump抓包分析网络问题",
+    "section": "user-guide",
+    "last_modified_ms": 1761136400000,
+    "last_modified_iso": "2025-10-22T20:33:20+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [
+      "aliyun-eci-ops"
+    ],
+    "tags": [
+      "k8s",
+      "ops"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-the-image-cache-feature-to-accelerate-the-creation-of-an-elastic-container-instance",
+    "title": "使用镜像缓存加速创建ECI实例",
+    "section": "user-guide",
+    "last_modified_ms": 1706174287000,
+    "last_modified_iso": "2024-01-25T17:18:07+08:00",
+    "primary_skill": "aliyun-eci-docs",
+    "secondary_skills": [],
+    "tags": []
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-the-private-pool-of-an-elasticity-assurance-to-create-a-pod",
+    "title": "使用弹性保障的私有资源池创建Pod",
+    "section": "user-guide",
+    "last_modified_ms": 1751248614000,
+    "last_modified_iso": "2025-06-30T09:56:54+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/use-vnodectl-to-connect-a-vnode-to-a-self-managed-kubernetes-cluster",
+    "title": "接入VNode（VNodectl工具）",
+    "section": "user-guide",
+    "last_modified_ms": 1770796850000,
+    "last_modified_iso": "2026-02-11T16:00:50+08:00",
+    "primary_skill": "aliyun-eci-k8s",
+    "secondary_skills": [],
+    "tags": [
+      "k8s"
+    ]
+  },
+  {
+    "url": "https://help.aliyun.com/zh/eci/user-guide/view-the-monitoring-metrics-of-an-elastic-container-instance",
+    "title": "查看ECI实例监控指标",
+    "section": "user-guide",
+    "last_modified_ms": 1697103487000,
+    "last_modified_iso": "2023-10-12T17:38:07+08:00",
+    "primary_skill": "aliyun-eci-ops",
+    "secondary_skills": [],
+    "tags": [
+      "ops"
+    ]
+  }
+]
