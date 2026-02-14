@@ -1,5 +1,10 @@
 # eci-skills
 
+[![npm version](https://img.shields.io/npm/v/eci-skills?logo=npm&color=CB3837)](https://www.npmjs.com/package/eci-skills)
+[![npm downloads](https://img.shields.io/npm/dm/eci-skills?logo=npm)](https://www.npmjs.com/package/eci-skills)
+[![license](https://img.shields.io/npm/l/eci-skills)](./LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/MisonL/alibaba-eci-skills?style=social)](https://github.com/MisonL/alibaba-eci-skills)
+
 阿里云 ECI（弹性容器实例）Skills 一键安装包，用于把一整套 ECI 专业技能安装到 Codex 的技能目录。
 
 - GitHub 仓库：https://github.com/MisonL/alibaba-eci-skills
@@ -23,6 +28,34 @@ npx eci-skills
 ```bash
 ${CODEX_HOME:-$HOME/.codex}/skills
 ```
+
+## npm 包说明与关联
+
+- 包名：`eci-skills`
+- npm 页面：https://www.npmjs.com/package/eci-skills
+- GitHub 仓库：https://github.com/MisonL/alibaba-eci-skills
+- 问题反馈：https://github.com/MisonL/alibaba-eci-skills/issues
+
+常见命令：
+
+```bash
+# 安装并执行最新版本
+npx eci-skills
+
+# 指定版本执行
+npx eci-skills@1.0.2 --help
+
+# 查看包最新版本
+npm view eci-skills version
+
+# 查看所有已发布版本
+npm view eci-skills versions
+```
+
+说明：
+
+- `npx eci-skills` 会拉取 npm 上 `latest` 标签对应版本并执行 CLI。
+- 若遇到本地缓存导致版本滞后，可加 `--yes` 或清理 npm 缓存后重试。
 
 ## 常用参数
 
